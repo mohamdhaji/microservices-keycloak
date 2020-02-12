@@ -1,0 +1,14 @@
+server:
+  port: 8090
+service:
+  movie-service: MOVIE-SERVICE
+  rating-service: RATING-SERVICE
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8787/eureka}
+  instance:
+    preferIpAddress: true
+spring:
+  application:
+    name: movie-rating-service

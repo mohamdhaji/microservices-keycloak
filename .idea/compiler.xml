@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-server" />
+        <module name="movie-service" />
+        <module name="microservices" />
+        <module name="rating-service" />
+        <module name="movie-rating-service" />
+        <module name="api-gateway-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-gateway-zuul" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="microservices" target="1.8" />
+      <module name="movie-rating-service" target="1.8" />
+      <module name="movie-service" target="1.8" />
+      <module name="rating-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-gateway-zuul" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="microservices" options="-parameters" />
+      <module name="movie-rating-service" options="-parameters" />
+      <module name="movie-service" options="-parameters" />
+      <module name="rating-service" options="-parameters" />
+    </option>
+  </component>
+</project>
