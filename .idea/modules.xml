@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/api-gateway-zuul/api-gateway-zuul.iml" filepath="$PROJECT_DIR$/api-gateway-zuul/api-gateway-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/microservices.iml" filepath="$PROJECT_DIR$/microservices.iml" />
       <module fileurl="file://$PROJECT_DIR$/movie-rating-service/movie-rating-service.iml" filepath="$PROJECT_DIR$/movie-rating-service/movie-rating-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/movie-service/movie-service.iml" filepath="$PROJECT_DIR$/movie-service/movie-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/rating-service/rating-service.iml" filepath="$PROJECT_DIR$/rating-service/rating-service.iml" />

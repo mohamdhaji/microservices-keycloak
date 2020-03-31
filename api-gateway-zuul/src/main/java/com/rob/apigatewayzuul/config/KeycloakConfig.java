@@ -5,11 +5,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-//@PropertySource("classpath:keycloak.properties")
 public class KeycloakConfig {
 
     @Bean
-    public KeycloakSpringBootConfigResolver keycloakConfigResolver() {
+    public KeycloakSpringBootConfigResolver keycloakConfigResolverOne() {
         return new KeycloakSpringBootConfigResolver();
     }
 }

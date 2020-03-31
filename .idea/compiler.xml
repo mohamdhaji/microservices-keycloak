@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-server" />
         <module name="movie-service" />
-        <module name="microservices" />
         <module name="rating-service" />
         <module name="movie-rating-service" />
         <module name="api-gateway-zuul" />
